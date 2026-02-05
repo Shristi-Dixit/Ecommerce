@@ -4,7 +4,7 @@ import { ShopContext } from '../../Context/ShopContext'
 import remove_icon from '../Assets/cart_cross_icon.png'
 import {getTotalCartItems} from './CartItems';
 const CartItems = () => {
-    const { getTotalCartAmount,getTotalCartItems,all_product,cartItems,removeFromCart}=useContext(ShopContext)
+    const { getTotalCartAmount, getTotalCartItems ,all_product,cartItems,removeFromCart}=useContext(ShopContext)
   return (
     <div className='cartitems'>
 <div className="cartitems"></div>
@@ -53,7 +53,9 @@ return null;
                 <h3>${getTotalCartAmount()}</h3>
             </div>
         </div>
+
         <button>PROCEED TO CHECKOUT</button>
+
     </div>
     <div className="cartitems-promocode">
       <p>If you have a promo code, Enter it here</p>  

@@ -35,18 +35,7 @@ import shashwatTripathi from '../Assets/shashwatTripathi.jpeg'
 </div>
 </div>
 <div className='about-us'>
-    <div className="footer-icons-container1">
-    <img src={ayushi} alt=''/>
-    <h1>Shristi Dixit</h1>
-</div>
-<div className="footer-icons-container2">
-    <img src={shubhGupta} alt='' />
-    <h1>Shubh Gupta</h1>
-</div>
-<div className="footer-icons-container3">
-    <img src={shashwatTripathi} alt=""/>
-    <h1>Shashwat Tripathi</h1>
-</div>
+ 
 </div>
     <div className="footer-copyright">
         <hr/>
